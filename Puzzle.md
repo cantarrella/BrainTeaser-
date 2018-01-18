@@ -1,3 +1,6 @@
+Puzzle Links \
+[Lawrence Puzzles](https://www.teamten.com/lawrence/puzzles/)
+
 # Airplane Seats Puzzle
 
 ## Description
@@ -22,3 +25,16 @@ have their own seats; if he sits on any other seat, say k, then k-th person will
 4. As long as the key question is still hanging on there (the 100th seat is not occupied yet), any passenger who found his seat occupied 
 has three choices: 1st, 100th, or "others". The "others" are transient state (recall the markove chain), and we are only concerned 
 whether 1st or 100th is chosen by him. By symmetry, the answer is straightforward.
+
+
+# Picture Boards
+
+## Description
+A company keeps two corkboards in the lobby to  displays the pictures of current exployees. The pictures are ordered by start day of
+the employee, putting the most senior in the upper-left of the first corkboard, filling it up, and then starting on the second corkboard.
+When an employee quits, his picture is removed and everyone else shifts over.\
+\
+You just started, and the two boards are full, with 150 pictures on each board. You observe that one person starts per week and one person quits per week. Currently you are on the lower-right on the 2nd board, how long will you wait on average to get on the first board.  
+
+## Idea
+For each shift, the time it takes follows a negative-binomial distriution based on the current position.
