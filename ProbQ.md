@@ -6,3 +6,4 @@ http://www.mathworks.com/matlabcentral/fileexchange/9700-random-vectors-with-fix
 
 https://en.wikipedia.org/wiki/Dirichlet_distribution
 
+https://math.stackexchange.com/questions/1143545/uniformly-random-tuples/1143987#1143987
