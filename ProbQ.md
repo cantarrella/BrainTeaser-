@@ -1,9 +1,11 @@
-# Simulate a simplex with fixed sum
+# Simulate a uniformly ditributed vector of size K from a simplex
 
-https://stats.stackexchange.com/questions/289258/how-to-simulate-a-uniform-distribution-of-a-triangular-area/289363
+## [Stackexchange](https://stats.stackexchange.com/questions/289258/how-to-simulate-a-uniform-distribution-of-a-triangular-area/289363)
 
-http://www.mathworks.com/matlabcentral/fileexchange/9700-random-vectors-with-fixed-sum
+## [Paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.159.912&rep=rep1&type=pdf)
+- Algorithm1: Sample (K-1) standard uniform RVs {x_k}, ordered them into  {x_{k}}, define v_i=x_{i}-x_{i-1}, get vector V={v_i}
 
-https://en.wikipedia.org/wiki/Dirichlet_distribution
+- Algorithm2: sample K exponential RVs {x_k}, get v_k=x_k/ \sum_{x_i}.
 
-https://math.stackexchange.com/questions/1143545/uniformly-random-tuples/1143987#1143987
+## Key Idea
+Poisson Process, order statistics
