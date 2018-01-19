@@ -38,3 +38,9 @@ You just started, and the two boards are full, with 150 pictures on each board. 
 
 ## Idea
 For each shift, the time it takes follows a negative-binomial distriution based on the current position.
+
+
+# Two Marbles
+
+## Description
+Puzzle: You are given two marbles and a 100 story building. There’s a floor where dropping a marble from that floor or any floor above it will cause the marble to break, but dropping a marble from any floor below it will not cause breakage. You want to devise an algorithm that will minimize the maximum number of drops needed to find that floor. With one marble, you can do no better than 100, but with two it is easy to improve on that. What is the fewest number of drops of the two marbles that will find the break floor, not knowing in advance where it is between 1 and 100?
