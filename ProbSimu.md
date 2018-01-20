@@ -1,4 +1,7 @@
-# Simulate a Random Vector (uniformly) from a simplex
+# [Simulate Sketch](https://people.eecs.berkeley.edu/~jordan/courses/260-spring10/lectures/lecture17.pdf)
+Include ideas about Monte Carlo Methods, Rejection Sampling, Importance Sampling, Metropolis-Hastings.
+
+# Simulate a simplex
 
 ## [Stackexchange](https://stats.stackexchange.com/questions/289258/how-to-simulate-a-uniform-distribution-of-a-triangular-area/289363)
 
