@@ -1,4 +1,4 @@
-# Simulate a uniformly ditributed vector of size K from a simplex
+# Simulate a Random Vector (uniformly) from a simplex
 
 ## [Stackexchange](https://stats.stackexchange.com/questions/289258/how-to-simulate-a-uniform-distribution-of-a-triangular-area/289363)
 
@@ -9,3 +9,11 @@
 
 ## Key Idea
 Poisson Process, order statistics
+
+
+# [Simulate Markov Chain](http://www.columbia.edu/~ks20/4703-Sigman/4703-07-Notes-MC.pdf)
+
+## Discrete Markov Chain
+As long as {P_ij, given i} is known, simulate a uniform RV on [0,1]. Then check where it falls.
+
+## Continuous Time Markov Chain
